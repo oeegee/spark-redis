@@ -10,18 +10,18 @@ Spark-Redis also provides Spark-Streaming support.
 ## Minimal requirements
 You'll need the the following to use Spark-Redis:
 
- - Apache Spark v1.4.0
- - Scala v2.10.4
- - Jedis v2.7
+ - Apache Spark v2.2.0
+ - Scala v2.11.11
+ - Jedis v2.9
  - Redis v2.8.12 or v3.0.3
 
 ## Known limitations
 
 * Java, Python and R API bindings are not provided at this time
 * The package was only tested with the following stack:
- - Apache Spark v1.4.0
+ - Apache Spark v2.2.0
  - Scala v2.10.4
- - Jedis v2.7 and v2.8 pre-release (see [below](#jedis-and-read-only-redis-cluster-slave-nodes) for details)
+ - Jedis v2.7 and v2.9 release (see [below](#jedis-and-read-only-redis-cluster-slave-nodes) for details)
  - Redis v2.8.12 and v3.0.3
 
 ## Additional considerations
